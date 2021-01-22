@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+
+@font-face {
+    font-family: "CoolStuff";
+    src: url("./fonts/CoolStuff.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/CoolStuff.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/CoolStuff.otf") format("opentype"), /* Open Type Font */
+      url("./fonts/CoolStuff.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/CoolStuff.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/CoolStuff.woff") format("woff"), /* Modern Browsers */
+      url("./fonts/CoolStuff.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FlashRogersChrome";
+    src: url("./fonts/flashrogerschrome0.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/flashrogerschrome0.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/flashrogerschrome0.otf") format("opentype"), /* Open Type Font */
+      url("./fonts/flashrogerschrome0.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/flashrogerschrome0.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/flashrogerschrome0.woff") format("woff"), /* Modern Browsers */
+      url("./fonts/flashrogerschrome0.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+#header h1 {
+    font-family: "CoolStuff";
+    font-size: 3.5vw;
+}
+#header h2 {
+    font-family: "FlashRogersChrome";
+    font-size: 3.5vw;
+}
+
+#header {
+  margin: 7em 0;
+}
+
+.navbar {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.3em;
+}
+
+.navbar-nav {
+  float:none;
+  margin:0 auto;
+  display: block;
+  text-align: center;
+}
+
+.navbar-nav > li {
+  display: inline-block;
+  float:none;
+}
+
+.styles h1{
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.styles img {
+  width: 80%;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.styles div p {
+  font-size: 1.3em;
+}
+
+.styles p a {
+  text-decoration: none;
+  color: black;
+}
+
+.styles p a:hover {
+  color: blueviolet;
+}
+
+#stylebtn, #stylebtn3 {
+  padding: 0.5em 2.5em;
+  font-size: 1.5em;
+  font-family: 'Fira Sans', sans-serif;
+  margin-right: 0.5em;
+}
+ 
+#stylebtn2 button{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.1em;
+  margin-right: 0.5em;
+  padding: 0.5em 1.5em;
+} 
+
+.pagStyle {
+  font-size: 1.4em;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 10vw;
+  object-fit: cover;
+}
+
+footer p{
+  font-size: 1.2em;
+}
+
+/* Table css */
+.styleTable {
+  margin: 6em !important;
+  background-color: aqua;
+}
+
+.fa-minus-circle {
+  vertical-align: middle;
+}
+
+.tablespace {
+  min-height: 830px !important;
+}
+
+.colStyle{
+  margin: 1.5em 0 !important;
+}
+
+.colStyle input, .colStyle label, .colStyle select, .colStyle textarea {
+  font-size: 1.2em;
+}
+
+.colStyle button, #delStyle a {
+  font-family: 'Fira Sans', sans-serif;
+  margin-right: 0.5em;
+  padding: 0.5em 1.5em;
+}
+
+#delStyle {
+  font-size: 1.2em;
+}
