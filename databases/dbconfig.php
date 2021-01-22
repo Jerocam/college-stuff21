@@ -2,13 +2,8 @@
 
     function dbConnect() {
         
-        // $username='root';
-        // $password='O85AU3rMFd1ep9Z1';
-        // $localhost = 'localhost';
-        // $db_name = "collegestuff";
-
-        $username='u824372461_jerocam';
-        $password= 'Vy99S6f;?';
+        $username='username';
+        $password= 'password';
         $localhost = 'localhost';
         $db_name = "u824372461_collegestuff";
 
